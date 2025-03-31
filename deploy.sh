@@ -12,7 +12,7 @@ echo "Building the project with Vite..."
 pnpm build || exit 1
 
 echo "Cleaning up old PM2 processes..."
-pm2 delete battleship-server --silent || exit 1
+pm2 delete battleship-server --silent 
 
 echo "Starting the app with PM2..."
 PORT=3015 pm2 start ./dist/server.js --name "battleship-server" || exit 1
