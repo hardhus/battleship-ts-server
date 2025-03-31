@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd cd /home/hardhus/Desktop/WEB/battleship-ts-server/ || exit 1
+cd /home/hardhus/Desktop/WEB/battleship-ts-server/ || exit 1
 
 echo "Pulling latest changes from Git..."
 git pull
